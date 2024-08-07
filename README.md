@@ -1,6 +1,8 @@
 # Artisan Chatbot
 This repository contains code for a simple chatbot that answers questions about [artisan.co](https://www.artisan.co).
 
+![image](content/image.png)
+
 ## Design notes:
 - The chatbot looks at the last 10 messages to generate a response. The whole message thread must be sent to the api because it's stateless.
 - The backend is built on fastapi and llama-index.
