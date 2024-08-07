@@ -2,6 +2,11 @@
 This repository contains code for a simple chatbot that answers questions about [artisan.co](https://www.artisan.co).
 
 ![image](content/image.png)
+<div align="center">
+  <a href="http://frontend.whitedune-3fe30ea7.eastus.azurecontainerapps.io" target="_blank">
+    <img src="https://img.shields.io/badge/Try%20the%20App-4CAF50?style=for-the-badge" alt="Try the App" width="200" height="50" style="border-radius: 25px;">
+  </a>
+</div>
 
 ## Design notes:
 - The chatbot looks at the last 10 messages to generate a response. The whole message thread must be sent to the api because it's stateless.
@@ -12,12 +17,11 @@ This repository contains code for a simple chatbot that answers questions about 
 - Frontend is built on chainlit
 - Both backend and frontend are deployed on azure containerapps
 
-[Click here to try the app](http://frontend.whitedune-3fe30ea7.eastus.azurecontainerapps.io)
 
 
-Send a post request to this URL to try the API: `https://chat.whitedune-3fe30ea7.eastus.azurecontainerapps.io/chat`
 
 ## API usage:
+Send a post request to this URL to try the API: `https://chat.whitedune-3fe30ea7.eastus.azurecontainerapps.io/chat`
 ```python
 import requests
 
